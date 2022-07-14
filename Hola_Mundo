@@ -1,0 +1,18 @@
+print("Hola Mundo :)")
+print("Hello World :)")
+print("Ciao Mondo :)")
+
+#Para ejecutar el codigo vamos a la opcion "RUN" y escogemos el archivo deseado.
+
+#Podemos hacer un salto de linea, lo cual nos ahorra una linea de codigo.
+print("Ciao Mondo\nMi chiamo Eduardo Toro Bernal")
+
+#Reto
+print("Hola, soy Eduardo Toro Bernal y estoy aprendiendo Python.")
+
+#Este es un comentario simple
+
+'''
+Este es un comentario multilinea, muy util cuando queremos 
+hacer grandes aclaraciones sobre nuestro codigo
+'''
