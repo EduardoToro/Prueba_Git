@@ -1,0 +1,23 @@
+El proceso que se debe seguir para lograr subir los cambios locales al repositorio remoto son los siguientes: 
+
+1) Abrir una consola y ejecutar los siguientes comandos: 
+    * git config --global user.email etorob@unal.edu.co
+    * git config --global user.name EduardoToro
+
+2) En Visual Code nos vamos a la barra lateral izquierda y damos clic en la herramienta de "Control de código fuente". Luego, los archivos que queremos subir pulsamos el boton más (+) y agregamos un commit y pulsamos
+ctrl+Intro. 
+
+3) Por último, en la terminal ejecutamos el siguiente código: 
+    * git push origin master
+
+4) Para generar el token de acceso vamos al perfil de GitHub --> Settings --> en la opción de desarrolladores
+--> Personal access token y seguimos los siguienteas pasos: 
+    * Seleccionar repo
+    * Seleccionar repo hook
+    * Seleccionar delete repo
+    * Deseleccionar repo hook
+    * Ahi mismo solo seleccionar read_repo_hook
+    * Deseleccionar delete repo
+Damos click en "generate token" 
+
+5) Ya podemos verificar los archivos en el repositorio remoto!
